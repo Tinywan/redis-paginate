@@ -25,3 +25,9 @@ $paginate->insert('2008','2022',['name'=>'tinywan']);
 $paginate = new Tinywan\Redis\Paginate();
 $paginate->page('2008',1,10);
 ```
+
+## 命令
+
+- 使用有序集合zadd
+- 使用hash存储具体的数据
+- 取数据通过有序集合的ZREVRANGE---递减排序
