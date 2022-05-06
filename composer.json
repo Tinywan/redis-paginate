@@ -1,6 +1,6 @@
 {
-  "name": "tinywan/jwt",
-  "description": "JSON Web Token (JWT) for webman plugin",
+  "name": "tinywan/redis-paginate",
+  "description": "redis cache paginate",
   "type": "library",
   "license": "MIT",
   "require": {
